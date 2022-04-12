@@ -6,8 +6,7 @@
  * @height: int
  * Return: 2d array
  */
-
-int **alloc_grid(int width, int height)
+chmod u+xint **alloc_grid(int width, int height)
 {
 int **tab, i, j;
 tab = malloc(sizeof(*tab) * height);
